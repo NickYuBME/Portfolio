@@ -59,6 +59,10 @@ a {
     color: #ffffff;
 }
 
+.top-right a {
+    color: #1be1f2
+}
+
 .nav-name {
     color: #ffffff;
     float: left;
