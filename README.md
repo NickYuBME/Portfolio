@@ -1,2 +1,2 @@
-#Personal Website
-https://nickyubme.github.io/Website/
+# Personal Website
+https://nickyu.ca/
