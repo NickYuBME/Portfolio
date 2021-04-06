@@ -74,7 +74,7 @@ a {
 }
 
 .nav-name {
-    color: #ffffff;
+    color: #1be1f2;
     float: left;
 }
 
@@ -83,7 +83,7 @@ a {
 }
 
 .nav-other-text:hover {
-    border-bottom: 3px solid var(--med-green);
+    border-bottom: 3px solid white;
 }
 
 .column-left {
