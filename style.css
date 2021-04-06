@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-    color: var(--med-green);
+    color: #ffffff);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -56,11 +56,11 @@ nav a {
 
 a {
     text-decoration: none;
-    color: var(--peach);
+    color: #ffffff;
 }
 
 .nav-name {
-    color: var(--peach);
+    color: #ffffff;
     float: left;
 }
 
