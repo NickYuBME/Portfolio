@@ -74,16 +74,22 @@ a {
 }
 
 .nav-name {
+    font-size: 60px;
     color: #1be1f2;
     float: left;
 }
 
 .nav-other-text {
+    padding-top: 10px;
     float: right;
 }
 
 .nav-other-text:hover {
     border-bottom: 3px solid white;
+}
+
+.nav-name:hover {
+    border-bottom: 7px solid #1be1f2;
 }
 
 .column-left {
