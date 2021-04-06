@@ -151,7 +151,7 @@ footer {
 h1 {
     font-size: 32px; 
     font-family: 'Lora', serif;
-    color: var(--med-green);
+    color: #ffffff;
     font-weight: 600;
     line-height: 55px;
 }
@@ -169,7 +169,7 @@ h1 {
 h2 {
     font-size: 50px; 
     font-family: 'Lora', serif;
-    color: var(--med-green);
+    color: #ffffff;
     font-weight: 800;
     line-height: 55px;
 }
