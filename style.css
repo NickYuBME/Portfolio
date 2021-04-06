@@ -97,7 +97,11 @@ a {
     width: 515px;
 }
 
+.column-about h1 {
+    color: white;
+}
 .column-about {
+    color: white;
     float: left;
     width: 350px;
     margin: 30px;
@@ -124,7 +128,7 @@ a {
 
 .spacer-short {
     height: 100px;
-    background-color: #09091c;;
+    background-color: #09091c;
 }
 
 .row {
@@ -170,12 +174,16 @@ main h1 {
     line-height: 55px;
 }
 
-.row h1 {
+.top-right h1 {
     font-size: 32px; 
     font-family: 'Lora', serif;
-    color: #09091c;
+    color: white;
     font-weight: 600;
     line-height: 55px;
+}
+
+.proj-preview h1 {
+    color: #09091c;
 }
 
 .padding-50 {
