@@ -45,7 +45,7 @@ nav {
 }
 
 nav a {
-    color: #ffffff);
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -53,16 +53,6 @@ nav a {
     margin-left: 20px;
     margin-right: 20px; 
 }
-
-
-/* nav a {
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    font-size: 12px;
-    padding-left: 14px;
-    padding-right: 14px;
-} */
 
 a {
     text-decoration: none;
@@ -193,6 +183,7 @@ main h1 {
 }
 
 .padding-50 {
+    color: #1be1f2;
     padding-top: 50px;
 }
 
@@ -210,8 +201,16 @@ h2 {
     line-height: 55px;
 }
 
+.top-right h3 {
+    color:#09091c;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 30px;
+}
+
 h3 {
-    color: #09091c;
+    color:white;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px; 
@@ -219,7 +218,15 @@ h3 {
 }
 
 .row h3 {
-    color: #09091c;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px; 
+    line-height: 30px;
+}
+
+.proj-preview h3 {
+    color:#09091c;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px; 
@@ -234,7 +241,7 @@ h4 {
 }
 
 p {
-    color: var(--grey);
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px; 
@@ -242,7 +249,7 @@ p {
 }
 
 li {
-    color: var(--grey);
+    color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 18px; 
@@ -289,16 +296,25 @@ li {
     margin-bottom: 50px;
 }
 
-.next-proj {
+.next-proj a {
+    color: #1be1f2;
     margin-top: 80px;
     float: right;
 }
 
-.back-proj {
+.back-proj a {
+    color: #1be1f2;
     margin-top: 80px;
     float: left;
 }
 
+.next-proj a:hover {
+    border-bottom: 5px solid #1be1f2;
+}
+
+.back-proj a:hover {
+    border-bottom: 5px solid #1be1f2;
+}
 
 
 /* html {
