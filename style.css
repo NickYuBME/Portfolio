@@ -111,6 +111,11 @@ a {
     border-radius: 20px;
     margin-bottom: 50px;
     float: center;
+    transition: 0.3s;
+}
+
+.proj-preview:hover {
+    transform: translate(0, -10px);
 }
 
 .fixed {
