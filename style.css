@@ -23,6 +23,7 @@ nav {
     position: sticky;
     top: 0px;
     background-color: white;
+    z-index:9999;
 }
 
 nav a {
@@ -179,6 +180,12 @@ a {
 .connect h3 {
     vertical-align: middle;
     padding-left: 100px;
+}
+
+.connect img {
+    margin-left:750px;
+    position:relative;
+    top:-100px;
 }
 
 footer {
