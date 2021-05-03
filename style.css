@@ -7,6 +7,23 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Scroll Bar Width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+/* Scroll Track */
+::-webkit-scrollbar-track {
+    background: #dfdfdf;
+    border-radius: 0px;
+  }
+
+/* Scroll Bar */
+::-webkit-scrollbar-thumb {
+    background: #2f80ed; 
+    border-radius: 10px;
+  }
+
 body {
     background-color: white;
 }
