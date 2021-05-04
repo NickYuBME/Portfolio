@@ -104,8 +104,8 @@ nav a {
 
 .top-right {
     position: absolute;
-    top: 60px;
-    right: 100px;
+    top: 50px;
+    right: 160px;
 }
 
 .top-right h1 {
@@ -124,12 +124,19 @@ nav a {
     line-height: 30px;
 }
 
-.top-right a {
+.top-right h3 a {
     color: #2f80ed;
 }
 
-.top-right a:hover {
+.top-right a {
+    color: black;
+}
+.top-right h3 a:hover {
     border-bottom: 3px solid #2f80ed;
+}
+
+.top-right a:hover {
+    border-bottom: 2px solid black;
 }
 
 .text-center {
