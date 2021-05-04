@@ -337,6 +337,16 @@ main h1 {
     padding-top: 50px;
     padding-bottom: 30px;
     font-weight:500;
+    font-size: 48px;
+}
+
+.padding-50-new {
+    color: black;
+    font-family: 'Inter', 'sans-serif';
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight:500;
+    font-size: 32px;
 }
 
 .padding-30
@@ -357,7 +367,7 @@ h3 {
     color:black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 22px; 
     line-height: 30px;
 }
 
@@ -380,8 +390,8 @@ p {
     color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 18px; 
-    line-height: 30px;
+    font-size: 22px; 
+    line-height: 44px;
 }
 
 li {
