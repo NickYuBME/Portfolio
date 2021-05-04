@@ -156,22 +156,26 @@ a {
     content: "";
     display: table;
     clear: both; 
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .column {
     margin-left: auto;
     margin-right: auto;
-    width: 1115px;
 }
 
 .proj-preview {
     padding: 45px;
-    width: 1115px;
+    height: 413px;
+    width: 800px;
     background-color: white;
     box-shadow: 0px 20px 49px rgba(71, 70, 67, 0.15);
     border-radius: 5px;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-bottom: 50px;
-    /* float: center; */
     transition: 0.3s;
 }
 
@@ -196,11 +200,13 @@ a {
 
 .connect {
     height: 327px;
-    width: 1115px;
+    width: 800px;
     background-color:hsla(212, 82%, 53%, 0.11);
     margin-top: 250px;
-    border-radius: 5px;
     margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
 }
 
 .connect h1 {
@@ -217,7 +223,7 @@ a {
 }
 
 .connect img {
-    margin-left:750px;
+    margin-left:525px;
     position:relative;
     top:-100px;
 }
