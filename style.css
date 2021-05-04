@@ -401,23 +401,25 @@ li {
 }
 
 .next-proj a {
-    color: #2f80ed;
+    color: black;
+    font-size: 24px;
     margin-top: 80px;
     float: right;
 }
 
 .back-proj a {
-    color: #2f80ed;
+    color: black;
+    font-size: 24px;
     margin-top: 80px;
     float: left;
 }
 
 .next-proj a:hover {
-    border-bottom: 5px solid #2f80ed;
+    border-bottom: 3px solid black;
 }
 
 .back-proj a:hover {
-    border-bottom: 5px solid #2f80ed;
+    border-bottom: 3px solid black;
 }
 
 
