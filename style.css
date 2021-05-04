@@ -48,13 +48,13 @@ nav a {
     color: black;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
-    font-size: 22px; 
+    font-size: 24px; 
     margin-left: 20px;
     margin-right: 20px; 
 }
 
 .nav-name {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 600;
     color: #2f80ed;
     float: left;
@@ -99,7 +99,7 @@ nav a {
     color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 650;
-    font-size: 28px; 
+    font-size: 32px; 
 }
 
 .top-right {
@@ -109,7 +109,7 @@ nav a {
 }
 
 .top-right h1 {
-    font-size: 32px; 
+    font-size: 42px; 
     font-family: 'Inter', sans-serif;
     color: black;
     font-weight: 600;
@@ -120,16 +120,18 @@ nav a {
     color: black;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 24px; 
     line-height: 30px;
 }
 
 .top-right h3 a {
     color: #2f80ed;
+    font-size: 24px; 
 }
 
 .top-right a {
     color: black;
+    font-size: 24px; 
 }
 .top-right h3 a:hover {
     border-bottom: 3px solid #2f80ed;
@@ -185,6 +187,7 @@ a {
 
 .proj-preview h1 {
     color: black;
+    font-size: 32px; 
     /* padding: 100px; */
     /* position: absolute;
     left: auto; */
@@ -194,7 +197,7 @@ a {
     color:#09091c;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 20px; 
+    font-size: 16px; 
     line-height: 30px;
 }
 
@@ -214,12 +217,14 @@ a {
     padding-left: 100px;
     padding-top: 50px;
     font-family: 'Inter', sans-serif;
+    font-size: 32px;
 }
 
 .connect h3 {
     vertical-align: middle;
     padding-left: 100px;
     font-family: 'Inter', sans-serif;
+    font-size: 24px;
 }
 
 .connect img {
