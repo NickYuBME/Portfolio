@@ -296,22 +296,6 @@ td {
 .column-about h1 {
     color: #2f80ed;
     font-family: 'Inter', 'sans-serif';
-    font-size: 32px;
-}
-
-.column-about h3 {
-    color: black;
-    font-family: 'Inter', 'sans-serif';
-    font-size: 28px;
-    line-height: 52px;
-}
-
-.column-about p {
-    color: black;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 24px; 
-    line-height: 60px;
 }
 
 .fixed {
