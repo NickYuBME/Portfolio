@@ -31,7 +31,6 @@ body {
 .container {
     margin-left: auto;
     margin-right: auto;
-    /* width: 1115px; */
     width: 1200px;
 }
 
@@ -175,8 +174,6 @@ a {
     background-color: white;
     box-shadow: 0px 20px 49px rgba(71, 70, 67, 0.15);
     border-radius: 5px;
-    /* margin-left: auto;
-    margin-right: auto; */
     margin-bottom: 50px;
     transition: 0.3s;
 }
@@ -188,9 +185,6 @@ a {
 .proj-preview h1 {
     color: black;
     font-size: 32px; 
-    /* padding: 100px; */
-    /* position: absolute;
-    left: auto; */
 }
 
 .proj-preview h3 {
@@ -504,59 +498,3 @@ li {
 .back-proj a:hover {
     border-bottom: 3px solid black;
 }
-
-
-/* html {
-    height: 100%
-}
-body {
-    background-color: #345345;
-    background-image: url(images/oop.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.container { 
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
-}
-header { 
-    height: 118px;
-    text-align: left;
-}
-nav {
-    background-color: rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding-top: 14px;
-    padding-bottom: 14px;
-}
-main {
-    height: 400px;
-    text-align: center;
-    padding-top: 80px;
-    padding-left: 240px;
-    padding-right: 240px;
-}
-main img {
-    text-align: left;
-}
-footer {
-    background-color: greenyellow;
-    height: 100px;
-}
-h1 { 
-    font-size: 84px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p {
-    font-size: 18px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-a {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    /* text-decoration: none; 
-}*/
