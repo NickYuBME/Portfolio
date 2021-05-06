@@ -296,6 +296,39 @@ td {
     margin-right: auto;
 }
 
+.row-about table {
+    border-collapse: collapse;
+}
+
+tr:not(:first-child) th {
+    padding-top: 1em;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #2f80ed;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 31%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 .column-about {
     color: black;
     float: left;
@@ -306,6 +339,10 @@ td {
 .column-about h1 {
     color: #2f80ed;
     font-family: 'Inter', 'sans-serif';
+}
+
+.column-about img {
+    padding-bottom: 10px;
 }
 
 .resume-button {
