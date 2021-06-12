@@ -335,6 +335,14 @@ tr:not(:first-child) th {
     font-family: 'Inter', 'sans-serif';
 }
 
+.column-about p {
+    color:black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 21px; 
+    line-height: 30px;
+}
+
 .column-about img {
     padding-bottom: 10px;
 }
@@ -350,6 +358,7 @@ tr:not(:first-child) th {
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
+    margin: 8.5px;
 }
 
 .fixed {
