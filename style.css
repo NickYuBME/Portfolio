@@ -270,6 +270,14 @@ th {
     padding-bottom:15px;
 }
 
+th {
+    text-align: left;
+    color: #2f80ed;
+    font-size: 20px;
+    padding-top:60px;
+    padding-bottom:15px;
+}
+
 td {
     font-size: 20px;
     font-weight: 30;
@@ -447,6 +455,12 @@ h4 {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px; 
+}
+
+h5 {
+    text-align: center;
+    color: #2f80ed;
+    font-size: 21px;
 }
 
 p {
