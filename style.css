@@ -168,7 +168,9 @@ a {
 }
 
 .proj-preview {
-    padding: 45px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
     height: 413px;
     width: 800px;
     background-color: white;
@@ -185,6 +187,7 @@ a {
 .proj-preview h1 {
     color: black;
     font-size: 32px; 
+    line-height: 25px;
 }
 
 .proj-preview h3 {
