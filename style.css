@@ -188,6 +188,16 @@ a {
     color: black;
     font-size: 32px; 
     line-height: 25px;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+main h1 {
+    font-size: 32px; 
+    font-family: 'Lora', serif;
+    color: black;
+    font-weight: 600;
+    line-height: 55px;
 }
 
 .proj-preview h3 {
