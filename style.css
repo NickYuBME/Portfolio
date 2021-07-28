@@ -313,6 +313,7 @@ td {
 
 .row-about table {
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 tr:not(:first-child) th {
