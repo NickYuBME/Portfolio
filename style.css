@@ -108,16 +108,13 @@ div.sidenav a:hover {
     color: #2f80ed;
 }
   
-@media only screen and (min-width: 600px) and (max-width: 1224px) {
+@media only screen and (min-width: 600px) and (max-width: 1450px) {
     div.sidenav {
         display: none;
     }
     div.sidenav a {
         display: none;
     }
-    /* div.sidenav a:hover {
-        display: none;
-    } */
 }
 
 .container-med {
@@ -272,6 +269,7 @@ main h1 {
     border-radius: 5px;
     padding: 45px;
     text-align:center;
+    scroll-margin-top: 80px;
 }
 
 .connect h1 {
