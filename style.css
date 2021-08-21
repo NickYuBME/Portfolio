@@ -10,6 +10,7 @@ html {
 /* Scroll Bar Width */
 ::-webkit-scrollbar {
     width: 12px;
+    height: 12px
   }
 
 /* Scroll Track */
@@ -75,6 +76,44 @@ nav a {
 
 .nav-name:hover {
     border-bottom: 3px solid #2f80ed;
+}
+
+div.sidenav {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: -1;
+    bottom: 400;
+    left:0;
+    background-color: #ffffff00;
+    overflow-x: hidden;
+    padding-bottom: 0px;
+}
+  
+div.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #9b9b9b;
+    display: block;
+}
+  
+div.sidenav a:hover {
+    color: #2f80ed;
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    div.sidenav {
+        display: none;
+    }
+    div.sidenav a {
+        display: none;
+    }
+    /* div.sidenav a:hover {
+        display: none;
+    } */
 }
 
 .container-med {
@@ -436,6 +475,7 @@ main h1 {
     padding-bottom: 30px;
     font-weight:500;
     font-size: 32px;
+    scroll-margin-top: 80px;
 }
 
 .padding-30
