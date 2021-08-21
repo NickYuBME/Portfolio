@@ -108,7 +108,7 @@ div.sidenav a:hover {
     color: #2f80ed;
 }
   
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 1224px) {
     div.sidenav {
         display: none;
     }
