@@ -92,13 +92,14 @@ div.sidenav {
     background-color: #ffffff00;
     overflow-x: hidden;
     padding-bottom: 0px;
+    margin-top: 50px;
 }
   
 div.sidenav a {
     padding: 6px 6px 6px 32px;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 18px;
     color: #9b9b9b;
     display: block;
