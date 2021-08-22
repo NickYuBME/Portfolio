@@ -116,6 +116,9 @@ div.sidenav a:hover {
     div.sidenav a {
         display: none;
     }
+    div.spacer-short {
+        display: none;
+    }
 }
 
 .container-med {
